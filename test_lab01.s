@@ -62,7 +62,7 @@ sum_loop:
     // Syntax: SUBS Xd, Xn, Xm
 
     // YOUR CODE HERE
-    SUBS X0, X1, X0
+    SUBS X0, X0, X1
 
     // TODO #4: Branch back to sum_loop if X0 is NOT zero
     // Syntax: B.NE label
